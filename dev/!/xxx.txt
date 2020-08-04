@@ -1,0 +1,7 @@
+сайт
+https://icomoon.io/
+
+создание шрифта с выбранными иконками
+
+подключал в static/fonts/font-icons
+
