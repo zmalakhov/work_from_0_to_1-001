@@ -10,4 +10,6 @@ slick slider
 сайт
 https://kenwheeler.github.io/slick/
 
-
+кладем
+slick.css -в папку css и подключаем к странице
+slick.min.js -в папку js и подключаем к странице
