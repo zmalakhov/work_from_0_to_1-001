@@ -1,0 +1,71 @@
+.form{
+  padding-top: 45px;
+}
+.form__inner{
+  padding-bottom: 40px;
+  background-image: url("../images/content/form/form-fon.png");
+  background-repeat: no-repeat; // не повторять изображение
+  //background-size: cover; // чтобы изображение растягивалось
+  background-position: bottom right; //располагаем изображение снизу и справа
+  min-height: 460px; // нужно обязательно указывать
+}
+
+.form__box{
+  max-width: 850px;
+  padding-top: 45px;
+}
+.form__box-inner{
+  display: flex;
+  justify-content: space-between;
+}
+.form__box-left{
+  max-width: 260px;
+  width: 100%;
+}
+.form__box-right{
+  max-width: 555px;
+  width: 100%;
+}
+
+.form__box-inner label,
+.form__box-inner input,
+.form__box-inner textarea,
+.form__box-inner select{
+  display: block;
+  width: 100%;
+}
+
+.form__box-inner label{
+  line-height: 36px;
+  color: #282828;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form__box-inner input{
+  margin-bottom: 8px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0 10px;
+}
+
+.form__box-inner select{
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding-left: 17px;
+}
+.form__box-inner textarea{
+  outline: none;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  height: 207px;
+  resize: none;
+  margin-bottom: 43px;
+}
+
+.form__box-inner button{
+  background-color: transparent;
+  color: #282828;
+  float: right;
+}
