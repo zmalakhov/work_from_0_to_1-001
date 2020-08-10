@@ -24,6 +24,10 @@ header {
   }
 
 }
+.header__btn-menu{
+  display: none;
+  font-size: 28px;
+}
 
 .header__contacts:after {
   content: "";

@@ -13,6 +13,30 @@
       display: none;
     }
   }
+  .header__btn-menu{
+    display: block;
+  }
+  .menu ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    z-index: 50;
+    & li{
+      display: block;
+      text-align: center;
+    }
+    & a{
+      display: block;
+      background-color: #ffc222;
+      border-top: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+  .menu li + li{
+    padding-left: 0;
+  }
 
 }
 
@@ -32,5 +56,11 @@
     &:before {
       display: block;
     }
+  }
+}
+
+@media (min-width: 700px) {
+  .menu ul {
+    display: block !important;
   }
 }
