@@ -1,13 +1,13 @@
 @media (max-width: 900px) {
-  .advantages__inner{
+  .advantages__inner {
     display: block;
   }
-  .advantages__item{
+  .advantages__item {
     max-width: 100%;
     margin-bottom: 40px;
     //padding: 0 20px;
   }
-  .advantages__text{
+  .advantages__text {
     max-width: 100%;
     //line-height: 24px;
     //color: #d3d2d2;
@@ -19,12 +19,10 @@
 }
 
 @media (max-width: 425px) {
-  .advantages__item{
+  .advantages__item {
     max-width: 100%;
     margin-bottom: 40px;
     padding: 0;
   }
 
 }
-
-
