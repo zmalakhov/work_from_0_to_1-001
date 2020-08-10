@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 900px) {
+  .form{
+    padding-bottom: 25px;
+  }
   .form__box-inner{
     display: block;
     & .jq-selectbox__select{
